@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
       <div class="footer-content">
-      <div class="footer-logo">Your Logo</div>
+      <div class="footer-logo"></div>
 
       <ul class="footer-links">
                 <li>Privacy Policy</li>
