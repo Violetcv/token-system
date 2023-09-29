@@ -1,7 +1,10 @@
 footer {
     background-color: #1e3a8a;
     color: #fff;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-content {
@@ -15,6 +18,14 @@ footer {
 .footer-logo {
     font-size: 20px;
     font-weight: bold;
+    background-image: url('../../public/images/Untitled-removebg-preview.png'); /* Adjust the path based on your project structure */
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+     display: inline-block; 
+    margin-right: 100px;
 }
 
 .footer-links {

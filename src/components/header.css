@@ -1,8 +1,21 @@
 header{
-    background-color: #ef0de8;
+    background-color: #08152D;    ;
     color: #FFFFFF;
     padding: 20px 0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-image: url('../../public/images/Untitled-removebg-preview.png'); /* Adjust the path based on your project structure */
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    display: inline-block; 
+    margin-right: 100px;
 }
 
 .header-h3{
@@ -10,10 +23,6 @@ header{
     font-size: xx-large;
 }
 
-logo {
-    font-size: 24px;
-    font-weight: bold;
-}
 
 nav {
     max-width: 1200px;
