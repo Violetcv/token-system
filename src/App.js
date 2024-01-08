@@ -13,6 +13,7 @@ import Cart from './pages/Cart.js';
 import ContactUs from './pages/ContactUs.js';
 import TrackTicket from './pages/TrackTicket.js';
 import './App.css';
+import SignIn from './pages/SignIn.js';
 
 function App() {
   return (
@@ -68,6 +69,12 @@ function App() {
                 <TrackTicket />
                 </>
               } 
+            />
+            <Route path="/signin" element={
+              <>
+              <SignIn/>
+              </>
+            }
             />
           </Routes>
         </main>
