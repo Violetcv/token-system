@@ -15,6 +15,7 @@ const Header = () => {
           <li><Link to="/booktickets">Book Tickets</Link></li>
           <li><Link to="/cart">Cart</Link></li>
           <li><Link to="/trackticket">Track Tickets</Link></li>
+          <li><Link to="/signin">Sign In</Link></li>
         </ul>
       </nav>
     </header>
