@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <div class="logo"></div>
+      {/* <div class="logo"></div> */}
       <h3 className='header-h3'>Token Gated Ticketing System</h3>
       <nav>
         <ul>
