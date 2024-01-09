@@ -4,8 +4,6 @@ import "./signin.css";
 const SignIn = () => {
   return (
     <div>
-      <h2>Sign In</h2>
-      <p>Test</p>
       {/* build a sign in ui for web3 authorized registration */}
 
       <div class="container right-panel-active">

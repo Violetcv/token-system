@@ -17,19 +17,6 @@
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
-	align-items: center;
-	background-color: var(--white);
-	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: grid;
-	height: 100vh;
-	place-items: center;
-}
-
 .form__title {
 	font-weight: 300;
 	margin: 0;
@@ -46,12 +33,12 @@ body {
 .container {
 	background-color: var(--white);
 	border-radius: var(--button-radius);
-	box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
-		0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+	/* box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25), */
+		/* 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22); */
 	height: var(--max-height);
 	max-width: var(--max-width);
 	overflow: hidden;
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 }
 
