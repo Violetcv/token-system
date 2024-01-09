@@ -2,9 +2,9 @@ import React from "react";
 
 const Home = () => {
     return (
-        <div style={{ textAlign: "center" }}>
+        <div>
             <h2>Home</h2>
-            <p>Test</p>
+            <p>Please Sign in to acces services</p>
         </div>
     )
 };
